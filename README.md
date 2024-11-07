@@ -8,3 +8,4 @@
 | 1.11.2024   | 1 | Independent work   | Complete netacad module 1
 | 3.11.2024   | 3,5 | Independent work   | Complete netacad module 2-4
 | 5.11.2024   | 1,5 | Independent work   | Complete netacad module 5 and final exam
+| 6.11.2024   | 1 | Workshop  | PortSwigger, reading material, getting know the subject
