@@ -11,3 +11,4 @@
 | 6.11.2024   | 1 | Workshop/Independent work  | PortSwigger, reading material, getting know the subject, start labs
 | 7.11.2024   | 3 | Independent work  | PortSwigger material and labs
 | 9.11.2024   | 3 | Independent work  | PortSwigger week task and more labs
+| 11.11.2024   | 2 | Lecture, Independent work  | Booking system start
