@@ -13,3 +13,4 @@
 | 9.11.2024   | 3 | Independent work  | PortSwigger week task and more labs
 | 11.11.2024   | 2 | Lecture, Independent work  | Booking system start
 | 13.11.2024   | 3 | Workshop, Independent work  | Getting booking system db work, doing ZAP scan, fixing first errors
+| 15.11.2024   | 2 | Independent work  | Fixing booking system, doing ZAP scan, fixing first errors
