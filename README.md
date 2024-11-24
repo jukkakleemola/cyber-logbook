@@ -16,3 +16,4 @@
 | 15.11.2024   | 2 | Independent work  | Fixing booking system, doing ZAP scan, fixing first errors
 | 18.11.2024   | 2 | Lecture, Independent work | Continue booking system phase 1, start Cybersecurity essentials
 | 20.11.2024   | 4 | Workshop, Independent work  | Complete booking system phase 1, started phase 2, Cybersecurity essentials
+| 24.11.2024   | 2 | Independent work  | Continue booking system phase 2, Cybersecurity essentials chapeters
