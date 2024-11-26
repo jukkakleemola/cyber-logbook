@@ -18,4 +18,4 @@
 | 20.11.2024   | 4 | Workshop, Independent work  | Complete booking system phase 1, started phase 2, Cybersecurity essentials
 | 24.11.2024   | 2 | Independent work  | Continue booking system phase 2, Cybersecurity essentials chapeters
 | 25.11.2024   | 2 | Lecture, Independent work  | Continue booking system phase 2, Cybersecurity essentials chapeters
-| 26.11.2024   | 3,5 | Workshop, Independent work  | Completes booking system phase 2, only one Cybersecurity essentials chapeter
+| 26.11.2024   | 3,5 | Workshop, Independent work  | Completed booking system phase 2, only one Cybersecurity essentials chapeter
