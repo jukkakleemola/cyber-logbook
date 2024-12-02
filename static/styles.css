@@ -144,3 +144,57 @@ body {
 .index-body a:hover {
   background-color: #45a049;
 }
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.form-group textarea:focus,
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none; /* Removes the bullets */
+  padding: 0; /* Removes extra padding from the list */
+  margin: 0; /* Removes extra margin from the list */
+}
+
+li {
+  margin: 10px 0; /* Adds spacing between list items */
+}

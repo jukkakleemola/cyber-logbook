@@ -44,7 +44,7 @@ CREATE TABLE xyz123_admin_logs (
 -- Function to check if the user is over 15 years old before making a reservation
 CREATE OR REPLACE FUNCTION xyz123_check_age() RETURNS TRIGGER AS $$
 BEGIN
-    IF (EXTRACT(YEAR FROM AGE(NEW.reservation_start, (SELECT birthdate FROM zephyr_users WHERE user_token = NEW.reserver_token))) < 15) THEN
+    IF (EXTRACT(YEAR FROM AGE(NEW.reservation_start, (SELECT birthdate FROM xyz123_users WHERE user_token = NEW.reserver_token))) < 15) THEN
         RAISE EXCEPTION 'User must be over 15 years old to make a reservation';
     END IF;
     RETURN NEW;
@@ -72,7 +72,7 @@ DECLARE
     user_token_to_erase UUID;
 BEGIN
     -- Find the pseudonym (token) of the user to erase
-    SELECT user_token INTO user_token_to_erase FROM zephyr_users WHERE user_id = user_id_to_erase;
+    SELECT user_token INTO user_token_to_erase FROM xyz123_users WHERE user_id = user_id_to_erase;
 
     -- Delete user and associated data
     DELETE FROM xyz123_reservations WHERE reserver_token = user_token_to_erase;
