@@ -1,5 +1,4 @@
-/* styles.css */
-
+/* Global styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,15 +6,25 @@
   font-family: Arial, sans-serif;
 }
 
+/* Body styles */
 body {
+  margin: 0;
   background-color: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Container styles */
 .container {
   width: 100%;
   max-width: 400px;
@@ -23,14 +32,10 @@ body {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
 }
 
-h1 {
-  text-align: center;
-  color: #333;
-  margin-bottom: 20px;
-}
-
+/* Form styles */
 form label {
   font-weight: bold;
   display: block;
@@ -41,6 +46,7 @@ form label {
 form input[type="email"],
 form input[type="password"],
 form input[type="date"],
+form input[type="text"],
 form select {
   width: 100%;
   padding: 10px;
@@ -58,6 +64,7 @@ form select:focus {
   outline: none;
 }
 
+/* Button styles */
 form button {
   width: 100%;
   padding: 10px;
@@ -79,46 +86,35 @@ form button:active {
   background-color: #004494;
 }
 
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        a {
-            display: block;
-            margin: 10px;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        a:hover {
-            background-color: #45a049;
-        }
-
-        /* --- Styles for index.html --- */
-
-/* General styles */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+/* Link styles */
+a {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
 }
 
-/* Styles specific to the index page */
+a:hover {
+  background-color: #45a049;
+}
+
+/* Index page styles */
 .index-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Full page height */
+  min-height: 100vh;
   background-color: #f5f5f5;
   text-align: center;
   padding: 20px;
 }
 
 .index-body h1 {
-  margin-bottom: 20px;
   color: #333;
 }
 
@@ -129,22 +125,12 @@ body {
 }
 
 .index-body a {
-  display: block;
   margin: 10px 0;
-  padding: 10px;
   width: 200px;
-  background-color: #4CAF50;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  text-align: center;
   font-size: 16px;
 }
 
-.index-body a:hover {
-  background-color: #45a049;
-}
-
+/* Form group styles */
 .form-group {
   margin-bottom: 15px;
 }
@@ -166,8 +152,8 @@ body {
   background-color: #fafafa;
 }
 
-.form-group textarea:focus,
-.form-group input:focus {
+.form-group input:focus,
+.form-group textarea:focus {
   border-color: #007bff;
   outline: none;
 }
@@ -189,12 +175,57 @@ body {
   background-color: #0056b3;
 }
 
+/* List styles */
 ul {
-  list-style: none; /* Removes the bullets */
-  padding: 0; /* Removes extra padding from the list */
-  margin: 0; /* Removes extra margin from the list */
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes extra padding */
+  margin: 0; /* Removes extra margin */
 }
 
 li {
   margin: 10px 0; /* Adds spacing between list items */
 }
+
+/* Terms container styles */
+.terms-container {
+  width: 100%;
+  max-width: 800px; /* Adjust width as necessary */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 12px;
+  margin-top: 50px; /* Add margin to push content down */
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.terms-container p {
+  margin-bottom: 15px;
+}
+
+/* Link styles within terms container */
+.terms-container a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  color: blue;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.terms-container a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.terms-container a:visited,
+.terms-container a:active,
+.terms-container a:focus {
+  color: blue;
+  text-decoration: none;
+}
+
