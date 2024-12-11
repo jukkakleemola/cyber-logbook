@@ -33,6 +33,7 @@ h1 {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
+  text-align: center;
 }
 
 /* Form styles */
@@ -197,7 +198,7 @@ li {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: left;
   font-size: 12px;
-  margin-top: 50px; /* Add margin to push content down */
+  margin-top: 80px; /* Add margin to push content down */
   list-style: none;
   margin-bottom: 10px;
 }
@@ -229,3 +230,62 @@ li {
   text-decoration: none;
 }
 
+/* Add this to /static/styles.css */
+table td {
+  padding: 5px;
+  font-size: 12px;
+}
+
+table {
+  border-collapse: separate; /* Ensures border-radius works properly */
+  border-spacing: 0; /* Avoids gaps between cells */
+  border-radius: 10px; /* Adjust value as needed for rounding */
+  overflow: hidden; /* Ensures content respects border-radius */
+}
+
+table th {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.checkbox-container {
+  padding: 10px;
+  font-size: 14px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+/* Link styles within terms container */
+.checkbox-container a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  color: blue;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.checkbox-container a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.checkbox-container a:visited,
+.checkbox-container a:active,
+.checkbox-container a:focus {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Account info style */
+.account-info {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  
+}
