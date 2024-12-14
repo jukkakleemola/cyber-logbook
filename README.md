@@ -26,3 +26,4 @@
 | 10.12.2024   | 3 | Independent work  | Continue booking system phase 4, continued Cybersecurity essentials course
 | 11.12.2024   | 4 | Independent work  | Completed booking system phase 4, finished 3 PortSwigger labs
 | 12.12.2024   | 2 | Independent work  | PortSwigger labs, Cybersecurity essentials course
+| 14.12.2024   | 2 | Independent work  | Final phase, Cybersecurity essentials course
